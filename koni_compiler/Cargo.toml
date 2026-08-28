@@ -1,0 +1,10 @@
+[package]
+name = "koni_compiler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+phf = { version = "0.13.1", features = ["macros"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+strum = { version = "0.28.0", features = ["derive"] }

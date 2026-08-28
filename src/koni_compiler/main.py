@@ -17,7 +17,7 @@ from enum import Enum, auto
 
 
 class TokenType(Enum):
-    ADD = '+'
+    ADD = 'ADD'
     INTEGER = 'INTEGER'
     INT = INTEGER
     IDENTIFIER = 'IDENTIFIER'
